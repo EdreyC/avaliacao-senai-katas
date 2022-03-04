@@ -4,7 +4,7 @@ Entregar o projeto contendo a resolução dos katas listados abaixo e validando 
 
 [x] question 1
 [x] question 2
-[ ] question 3
+[x] question 3
 
 
 ## Kata OHCE (adaptado)
