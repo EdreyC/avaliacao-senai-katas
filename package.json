@@ -1,0 +1,24 @@
+{
+  "name": "avaliacao-senai-katas",
+  "author": "senai",
+  "description": "Avaliação I da disciplina de testes de software do Senai",
+  "scripts": {
+    "dev":"ts-node-dev",
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test":"tsdx test",
+    "testAll": "tsdx test --watchAll",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^7.0.8",
+    "husky": "^7.0.4",
+    "size-limit": "^7.0.8",
+    "ts-node-dev": "^1.1.8",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {}
+}
