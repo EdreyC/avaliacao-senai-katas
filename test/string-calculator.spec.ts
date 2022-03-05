@@ -4,6 +4,7 @@ describe("Calculador de string", ()=>{
 
     const stringWithout1000 = "1,2,999"
     const stringWith1000 = "1,2,999,1000,2000"
+    const stringWithNegative = "-3,1,2,999,1000,2000"
     
     test("Deve retornar a soma das strings",()=>{
         const response = stringCalculator(stringWithout1000)
@@ -11,6 +12,10 @@ describe("Calculador de string", ()=>{
     })
     test("Deve retornar a soma das strings ignorando números acima de 1000",()=>{
         const response = stringCalculator(stringWith1000)
+        expect(response).toBe(1002)
+    })
+    test("Deve retornar a soma das strings ignorando números abaixo de 0",()=>{
+        const response = stringCalculator(stringWithNegative)
         expect(response).toBe(1002)
     })
 })
