@@ -6,7 +6,7 @@ describe("ScoreKeeper",()=>{
     const scoreKeeper = new ScoreKeeper()
   
 
-    test("Deve retornar 10 pontos pro time A e 20 para o time B",()=>{
+    test("Deve retornar 3 pontos pro time A e 3 para o time B",()=>{
         scoreKeeper.scoreTeamA3()
         scoreKeeper.scoreTeamB3()
         let response = scoreKeeper.getScore()
